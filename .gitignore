@@ -1,0 +1,8 @@
+.idea
+.git
+.env
+venv
+venv/*
+__pycache__
+/heroku_cmd.txt
+exp1.ipynb

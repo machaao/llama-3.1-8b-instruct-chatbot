@@ -1,0 +1,8 @@
+# action_balance
+---
+type: intent
+name: balance
+utterances:
+  - Whats my credit
+  - Whats my balance
+  - balance
