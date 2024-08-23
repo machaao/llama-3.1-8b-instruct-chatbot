@@ -5,8 +5,8 @@ Use this template to rapidly build and monetise a [Meta Llama 3.1](https://huggi
 * Windows / Mac / Linux with Git installed
 * Python 3.8
 * Ngrok for Tunneling (For Local Laptop Development Environment)
-* Replicate API token - Get one [here](https://replicate.com/meta/meta-llama-3-8b-instruct/api)
-* MessengerX API Token - Follow the instructions below to get your token
+* Hugging Face API token
+* MessengerX.io API Token - Follow the instructions below to get your token
 
 ## Get MessengerX.io API Key ##
 * Available on the [MessengerX.io](https://portal.messengerx.io/index#!/dashboard) portal
@@ -25,9 +25,9 @@ Use this template to rapidly build and monetise a [Meta Llama 3.1](https://huggi
 ## Local Setup ##
 ### Download or clone this repository ###
 ```
-git clone https://github.com/machaao/llama-3.1-8b-sample.git
+git clone https://github.com/machaao/llama-3.1-8b-instruct-chatbot.git
 
-cd llama-3.1-8b-sample
+cd llama-3.1-8b-instruct-chatbot
 ```
 
 ### Install requirements ###
@@ -49,7 +49,7 @@ MODEL_NAME=meta/meta-llama-3.1-405b-instruct
 CREDIT=5
 ```
 
-Get your replicate api token [here](https://replicate.com/meta/meta-llama-3-8b-instruct/api)
+Get your HF api token [here](https://huggingface.co)
 
 ### Change ```CREDIT``` variable to change the cost of a text message ###
 ```
